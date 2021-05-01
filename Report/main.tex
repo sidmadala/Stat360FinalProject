@@ -1,0 +1,53 @@
+\documentclass{article} % For LaTeX2e
+\usepackage{final_project, times}
+\usepackage{amsmath, amsfonts}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{hyperref}
+\usepackage{cite}
+% \documentstyle[nips12submit_09,times,art10]{article} % For LaTeX 2.09
+
+
+\title{Fashion Data Classification via Bayesian Convolutional Neural Networks}
+
+\author{
+Siddarth Madala \\
+Department of Statistical Sciences \\
+Duke University \\
+\texttt{siddarth.madala@duke.edu}
+}
+
+\newcommand{\fix}{\marginpar{FIX}}
+\newcommand{\new}{\marginpar{NEW}}
+\DeclareMathOperator*{\argmax}{arg\,max}
+\DeclareMathOperator*{\argmin}{arg\,min}
+
+% \usepackage[headsep=0pt]{geometry}
+
+\nipsfinalcopy
+
+\begin{document}
+
+\maketitle
+
+\input{Introduction}
+
+\input{Data}
+
+\input{Model}
+
+\input{Results}
+
+\input{Conclusion}
+
+\input{Supplemental}
+
+\bibliographystyle{IEEEtran}
+{
+% \hyphenpenalty=10000
+% \exhyphenpenalty=10000
+% \sloppy
+\bibliography{References}
+}
+
+\end{document}

@@ -1,0 +1,5 @@
+\newpage
+
+\section{Conclusion}
+
+We have successfully applied a probabilistic, Bayesian deep learning model, the BCNN, to the fashion MNIST dataset. Our model learned latent features of the products in latent space, allowing us to classify test images with high accuracy. Ultimately, we classified data with performances on par with that of frequentist neural networks with identical architectures, while ensuring that our model can also incorporate a measurement for uncertainties and regularisation. We expected to face more difficulty with gaining insights into the confidence values of the BCNN, but found that the network inherently stores these values along with its weight distributions to enable predictions that meet the confidence threshold set in our experiments. Future work includes implementing pruning methods to reduce the number of parameters in the BCNN. Further extensions include replacing traditional layers of Generative Adversarial Networks (GAN) and Variational Autoencoders (VAE) with BCNNs to reconstruct test images and generate hybrid products as inspiration for fashion designers while observing belief of reconstruction.
